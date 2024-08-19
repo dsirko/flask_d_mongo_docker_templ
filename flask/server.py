@@ -14,7 +14,8 @@ def todo():
         client.admin.command('ismaster')
     except:
         return "Server not available"
-    return "Hello from the MongoDB client!\n"
+    return ("Hello from the MongoDB client!\n"
+            "second version\n")
 
 
 if __name__ == "__main__":
